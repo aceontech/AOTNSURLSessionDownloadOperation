@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "AOTNSURLSessionDownloadOperation"
-  s.version      = "0.1.0"
+  s.version      = "0.1.1"
   s.summary      = "NSURLSessionDownloadTask wrapped in NSOperation for use with NSOperationQueue (requires AFNetworking 2)."
 
   s.description  = <<-DESC
@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, '7.0'
 
-  s.source       = { :git => "https://github.com/aceontech/AOTNSURLSessionDownloadOperation.git", :tag => "0.1.0" }
+  s.source       = { :git => "https://github.com/aceontech/AOTNSURLSessionDownloadOperation.git", :tag => "0.1.1" }
 
   s.source_files  = 'AOTNSURLSessionDownloadOperation/Classes', 'AOTNSURLSessionDownloadOperation/Classes/**/*.{h,m}'
   s.exclude_files = 'AOTNSURLSessionDownloadOperation/Classes/Exclude'

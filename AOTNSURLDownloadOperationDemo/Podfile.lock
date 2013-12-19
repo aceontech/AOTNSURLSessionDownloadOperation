@@ -17,7 +17,7 @@ PODS:
   - AFNetworking/Serialization (2.0.3)
   - AFNetworking/UIKit (2.0.3):
     - AFNetworking/NSURLConnection
-  - AOTNSURLSessionDownloadOperation (0.1.0):
+  - AOTNSURLSessionDownloadOperation (0.1.1):
     - AFNetworking (~> 2.0)
 
 DEPENDENCIES:
@@ -25,6 +25,6 @@ DEPENDENCIES:
 
 SPEC CHECKSUMS:
   AFNetworking: e499052cbf3d743e9bb727bb37adb9dc2547ba15
-  AOTNSURLSessionDownloadOperation: a2fb72c926ac5e77592d50a385cc266ae0ac50cc
+  AOTNSURLSessionDownloadOperation: c664e61ad5ae60ad3048490e83ab3c233618e50b
 
 COCOAPODS: 0.28.0
