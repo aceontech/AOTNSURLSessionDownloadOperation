@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EEC1B89385A44EC4B45D7FA1 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 359176FDE8AC4D0581C97EF0 /* libPods.a */; };
+		FA2C4A1E186336280035348F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA2C4A1D186336280035348F /* Foundation.framework */; };
+		FA2C4A20186336280035348F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA2C4A1F186336280035348F /* CoreGraphics.framework */; };
+		FA2C4A22186336280035348F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA2C4A21186336280035348F /* UIKit.framework */; };
+		FA2C4A28186336280035348F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA2C4A26186336280035348F /* InfoPlist.strings */; };
+		FA2C4A2A186336280035348F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2C4A29186336280035348F /* main.m */; };
+		FA2C4A2E186336280035348F /* AOTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2C4A2D186336280035348F /* AOTAppDelegate.m */; };
+		FA2C4A30186336280035348F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA2C4A2F186336280035348F /* Images.xcassets */; };
+		FA2C4A37186336280035348F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA2C4A36186336280035348F /* XCTest.framework */; };
+		FA2C4A38186336280035348F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA2C4A1D186336280035348F /* Foundation.framework */; };
+		FA2C4A39186336280035348F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA2C4A21186336280035348F /* UIKit.framework */; };
+		FA2C4A41186336280035348F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA2C4A3F186336280035348F /* InfoPlist.strings */; };
+		FA2C4A43186336280035348F /* AOTNSURLDownloadOperationDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2C4A42186336280035348F /* AOTNSURLDownloadOperationDemoTests.m */; };
+		FA2C4A4E186336EA0035348F /* AOTRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2C4A4D186336EA0035348F /* AOTRootViewController.m */; };
+		FA2C4A511863376F0035348F /* AOTDownloadsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2C4A501863376F0035348F /* AOTDownloadsViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA2C4A3A186336280035348F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA2C4A12186336280035348F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA2C4A19186336280035348F;
+			remoteInfo = AOTNSURLDownloadOperationDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		359176FDE8AC4D0581C97EF0 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D05A1806473A4F0AA5F87930 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		FA2C4A1A186336280035348F /* AOTNSURLDownloadOperationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AOTNSURLDownloadOperationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA2C4A1D186336280035348F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FA2C4A1F186336280035348F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FA2C4A21186336280035348F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FA2C4A25186336280035348F /* AOTNSURLDownloadOperationDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AOTNSURLDownloadOperationDemo-Info.plist"; sourceTree = "<group>"; };
+		FA2C4A27186336280035348F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FA2C4A29186336280035348F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FA2C4A2B186336280035348F /* AOTNSURLDownloadOperationDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AOTNSURLDownloadOperationDemo-Prefix.pch"; sourceTree = "<group>"; };
+		FA2C4A2C186336280035348F /* AOTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AOTAppDelegate.h; sourceTree = "<group>"; };
+		FA2C4A2D186336280035348F /* AOTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AOTAppDelegate.m; sourceTree = "<group>"; };
+		FA2C4A2F186336280035348F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FA2C4A35186336280035348F /* AOTNSURLDownloadOperationDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AOTNSURLDownloadOperationDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA2C4A36186336280035348F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FA2C4A3E186336280035348F /* AOTNSURLDownloadOperationDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AOTNSURLDownloadOperationDemoTests-Info.plist"; sourceTree = "<group>"; };
+		FA2C4A40186336280035348F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FA2C4A42186336280035348F /* AOTNSURLDownloadOperationDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AOTNSURLDownloadOperationDemoTests.m; sourceTree = "<group>"; };
+		FA2C4A4C186336EA0035348F /* AOTRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AOTRootViewController.h; sourceTree = "<group>"; };
+		FA2C4A4D186336EA0035348F /* AOTRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AOTRootViewController.m; sourceTree = "<group>"; };
+		FA2C4A4F1863376F0035348F /* AOTDownloadsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AOTDownloadsViewController.h; sourceTree = "<group>"; };
+		FA2C4A501863376F0035348F /* AOTDownloadsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AOTDownloadsViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA2C4A17186336280035348F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA2C4A20186336280035348F /* CoreGraphics.framework in Frameworks */,
+				FA2C4A22186336280035348F /* UIKit.framework in Frameworks */,
+				FA2C4A1E186336280035348F /* Foundation.framework in Frameworks */,
+				EEC1B89385A44EC4B45D7FA1 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA2C4A32186336280035348F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA2C4A37186336280035348F /* XCTest.framework in Frameworks */,
+				FA2C4A39186336280035348F /* UIKit.framework in Frameworks */,
+				FA2C4A38186336280035348F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA2C4A11186336280035348F = {
+			isa = PBXGroup;
+			children = (
+				FA2C4A23186336280035348F /* AOTNSURLDownloadOperationDemo */,
+				FA2C4A3C186336280035348F /* AOTNSURLDownloadOperationDemoTests */,
+				FA2C4A1C186336280035348F /* Frameworks */,
+				FA2C4A1B186336280035348F /* Products */,
+				D05A1806473A4F0AA5F87930 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		FA2C4A1B186336280035348F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA2C4A1A186336280035348F /* AOTNSURLDownloadOperationDemo.app */,
+				FA2C4A35186336280035348F /* AOTNSURLDownloadOperationDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA2C4A1C186336280035348F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA2C4A1D186336280035348F /* Foundation.framework */,
+				FA2C4A1F186336280035348F /* CoreGraphics.framework */,
+				FA2C4A21186336280035348F /* UIKit.framework */,
+				FA2C4A36186336280035348F /* XCTest.framework */,
+				359176FDE8AC4D0581C97EF0 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA2C4A23186336280035348F /* AOTNSURLDownloadOperationDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FA2C4A2C186336280035348F /* AOTAppDelegate.h */,
+				FA2C4A2D186336280035348F /* AOTAppDelegate.m */,
+				FA2C4A4C186336EA0035348F /* AOTRootViewController.h */,
+				FA2C4A4D186336EA0035348F /* AOTRootViewController.m */,
+				FA2C4A4F1863376F0035348F /* AOTDownloadsViewController.h */,
+				FA2C4A501863376F0035348F /* AOTDownloadsViewController.m */,
+				FA2C4A2F186336280035348F /* Images.xcassets */,
+				FA2C4A24186336280035348F /* Supporting Files */,
+			);
+			path = AOTNSURLDownloadOperationDemo;
+			sourceTree = "<group>";
+		};
+		FA2C4A24186336280035348F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA2C4A25186336280035348F /* AOTNSURLDownloadOperationDemo-Info.plist */,
+				FA2C4A26186336280035348F /* InfoPlist.strings */,
+				FA2C4A29186336280035348F /* main.m */,
+				FA2C4A2B186336280035348F /* AOTNSURLDownloadOperationDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA2C4A3C186336280035348F /* AOTNSURLDownloadOperationDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA2C4A42186336280035348F /* AOTNSURLDownloadOperationDemoTests.m */,
+				FA2C4A3D186336280035348F /* Supporting Files */,
+			);
+			path = AOTNSURLDownloadOperationDemoTests;
+			sourceTree = "<group>";
+		};
+		FA2C4A3D186336280035348F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA2C4A3E186336280035348F /* AOTNSURLDownloadOperationDemoTests-Info.plist */,
+				FA2C4A3F186336280035348F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA2C4A19186336280035348F /* AOTNSURLDownloadOperationDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA2C4A46186336280035348F /* Build configuration list for PBXNativeTarget "AOTNSURLDownloadOperationDemo" */;
+			buildPhases = (
+				073649F7B6324739B4CB3A25 /* Check Pods Manifest.lock */,
+				FA2C4A16186336280035348F /* Sources */,
+				FA2C4A17186336280035348F /* Frameworks */,
+				FA2C4A18186336280035348F /* Resources */,
+				8721CC814B194025AB3D0714 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AOTNSURLDownloadOperationDemo;
+			productName = AOTNSURLDownloadOperationDemo;
+			productReference = FA2C4A1A186336280035348F /* AOTNSURLDownloadOperationDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA2C4A34186336280035348F /* AOTNSURLDownloadOperationDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA2C4A49186336280035348F /* Build configuration list for PBXNativeTarget "AOTNSURLDownloadOperationDemoTests" */;
+			buildPhases = (
+				FA2C4A31186336280035348F /* Sources */,
+				FA2C4A32186336280035348F /* Frameworks */,
+				FA2C4A33186336280035348F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA2C4A3B186336280035348F /* PBXTargetDependency */,
+			);
+			name = AOTNSURLDownloadOperationDemoTests;
+			productName = AOTNSURLDownloadOperationDemoTests;
+			productReference = FA2C4A35186336280035348F /* AOTNSURLDownloadOperationDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA2C4A12186336280035348F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AOT;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Alex Manarpies";
+				TargetAttributes = {
+					FA2C4A19186336280035348F = {
+						DevelopmentTeam = L92J6TJCE9;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
+					};
+					FA2C4A34186336280035348F = {
+						TestTargetID = FA2C4A19186336280035348F;
+					};
+				};
+			};
+			buildConfigurationList = FA2C4A15186336280035348F /* Build configuration list for PBXProject "AOTNSURLDownloadOperationDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FA2C4A11186336280035348F;
+			productRefGroup = FA2C4A1B186336280035348F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA2C4A19186336280035348F /* AOTNSURLDownloadOperationDemo */,
+				FA2C4A34186336280035348F /* AOTNSURLDownloadOperationDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA2C4A18186336280035348F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA2C4A28186336280035348F /* InfoPlist.strings in Resources */,
+				FA2C4A30186336280035348F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA2C4A33186336280035348F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA2C4A41186336280035348F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		073649F7B6324739B4CB3A25 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8721CC814B194025AB3D0714 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA2C4A16186336280035348F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA2C4A2A186336280035348F /* main.m in Sources */,
+				FA2C4A511863376F0035348F /* AOTDownloadsViewController.m in Sources */,
+				FA2C4A4E186336EA0035348F /* AOTRootViewController.m in Sources */,
+				FA2C4A2E186336280035348F /* AOTAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA2C4A31186336280035348F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA2C4A43186336280035348F /* AOTNSURLDownloadOperationDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA2C4A3B186336280035348F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA2C4A19186336280035348F /* AOTNSURLDownloadOperationDemo */;
+			targetProxy = FA2C4A3A186336280035348F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA2C4A26186336280035348F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA2C4A27186336280035348F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FA2C4A3F186336280035348F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA2C4A40186336280035348F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA2C4A44186336280035348F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA2C4A45186336280035348F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA2C4A47186336280035348F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D05A1806473A4F0AA5F87930 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AOTNSURLDownloadOperationDemo/AOTNSURLDownloadOperationDemo-Prefix.pch";
+				INFOPLIST_FILE = "AOTNSURLDownloadOperationDemo/AOTNSURLDownloadOperationDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FA2C4A48186336280035348F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D05A1806473A4F0AA5F87930 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AOTNSURLDownloadOperationDemo/AOTNSURLDownloadOperationDemo-Prefix.pch";
+				INFOPLIST_FILE = "AOTNSURLDownloadOperationDemo/AOTNSURLDownloadOperationDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FA2C4A4A186336280035348F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AOTNSURLDownloadOperationDemo.app/AOTNSURLDownloadOperationDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AOTNSURLDownloadOperationDemo/AOTNSURLDownloadOperationDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AOTNSURLDownloadOperationDemoTests/AOTNSURLDownloadOperationDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FA2C4A4B186336280035348F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AOTNSURLDownloadOperationDemo.app/AOTNSURLDownloadOperationDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AOTNSURLDownloadOperationDemo/AOTNSURLDownloadOperationDemo-Prefix.pch";
+				INFOPLIST_FILE = "AOTNSURLDownloadOperationDemoTests/AOTNSURLDownloadOperationDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA2C4A15186336280035348F /* Build configuration list for PBXProject "AOTNSURLDownloadOperationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA2C4A44186336280035348F /* Debug */,
+				FA2C4A45186336280035348F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA2C4A46186336280035348F /* Build configuration list for PBXNativeTarget "AOTNSURLDownloadOperationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA2C4A47186336280035348F /* Debug */,
+				FA2C4A48186336280035348F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA2C4A49186336280035348F /* Build configuration list for PBXNativeTarget "AOTNSURLDownloadOperationDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA2C4A4A186336280035348F /* Debug */,
+				FA2C4A4B186336280035348F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA2C4A12186336280035348F /* Project object */;
+}
