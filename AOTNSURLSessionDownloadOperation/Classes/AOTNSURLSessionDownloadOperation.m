@@ -107,8 +107,6 @@
         return wself.saveURL;
     } completionHandler:^(NSURLResponse *response, NSURL *filePath, NSError *error) {
         
-        [progress removeObserver:wself forKeyPath:@"fractionCompleted"];
-        
         if (error) {
             // Something went wrong, transparently report error
             if (_errorBlock) {
