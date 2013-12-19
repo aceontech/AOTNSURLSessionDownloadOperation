@@ -1,0 +1,9 @@
+AOTNSURLSessionDownloadOperation wraps a NSURLSessionDownloadTask managed by 
+AFNetworking 2 in an NSOperation so it can be managed with a NSOperationQueue.
+This allows you to queue any number of downloads and let the run serially
+(in sequence, by setting operationQueue.maxConcurrentOperationCount = 1) or in 
+parallel (operationQueue.maxConcurrentOperationCount > 1).
+
+Make sure you have permission to write in the saveURL you provide.
+
+COMPATIBILITY: iOS 7 and higher (due to availability of NSURLSession)
