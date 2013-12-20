@@ -13,6 +13,7 @@ Unnecessary code omitted for brevity:
 ```objc
 @interface ViewController ()
 @property (nonatomic,strong) AFURLSessionManager *sessionManager;
+@property (nonatomic,strong) NSOperationQueue *downloadQueue;
 @end
 
 @implementation ViewController
